@@ -13,8 +13,7 @@ int main(){
 			printf("mang[%d]=%d",i,mang[i]);
 		}
 	// tinh tong giai thua cac phan tu trong mang
-	    int S=0;
-	    int i;
+	    int S=0,i;
 	    for(i=1;i<=n;i++)
 		{
 	    	S=S*i;
