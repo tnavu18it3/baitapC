@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+main(){
+	float sc,sm,stt,tiendien ;
+	printf("nhap so cu : ");
+	scanf("%f",&sc);
+	printf("Nhap so moi : ");
+	scanf("%f",&sm);
+	if (sc<sm) {
+	
+	stt=sm-sc;}
+	if (stt<50)
+	   { tiendien=1500*stt;
+	   printf(" So tien dien phai tra la %f : ",tiendien);
+	   }
+	else if(stt>=50 and stt<150)
+	{ tiendien=2000*(stt-50)+50*1500;
+	printf("So tien dien phai tra la %f : ",tiendien);}
+	      else {
+	      	tiendien=50*1500+100*2000+(sth-150)*2500;
+	      	printf("So tien dien phai tra la %f : ",tiendien);
+		  }
+	}
